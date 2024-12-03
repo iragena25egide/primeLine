@@ -8,6 +8,8 @@ import Proof from './future-proof';
 import Smart from './smart';
 import Network from './network';
 import Map from './map';
+import Explore from './explore';
+import Footer from './footer';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
           <Smart />
           <Network />
           <Map />
+          <Explore />
+          <Footer />
           </>
           } 
           />
