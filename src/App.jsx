@@ -10,6 +10,12 @@ import Network from './network';
 import Map from './map';
 import Explore from './explore';
 import Footer from './footer';
+import AboutUs from './aboutUs';
+import Customer from './customer';
+import Emergency from './emergency';
+import Innovation from './innovation';
+import Careers from './careers';
+import ContactUs from './contactUs';
 
 
 function App() {
@@ -33,6 +39,56 @@ function App() {
           </>
           } 
           />
+          <Route path='/about-us' element={
+            <>
+            <Header />
+            <AboutUs />
+            <Footer />
+            </>
+          } />
+    
+           <Route path='/capabilities' element={
+            <>
+            <Header />
+            <Footer />
+            </>
+          } />
+           <Route path='/careers' element={
+            <>
+            <Header />
+            <Careers />
+            <Footer />
+            </>
+          } />
+           <Route path='/innovation' element={
+            <>
+            <Header />
+            <Innovation />
+            <Footer />
+            </>
+          } />
+           <Route path='/emergency-service' element={
+            <>
+            <Header />
+            <Emergency />
+            <Footer />
+            </>
+          } />
+           <Route path='/customer-care' element={
+            <>
+            <Header />
+            <Customer />
+            <Footer />
+            </>
+          } />
+
+          <Route path='/contact-us' element={
+            <>
+            <Header />
+            <ContactUs />
+            <Footer />
+            </>
+          } />
       </Routes>
     </BrowserRouter>
   )

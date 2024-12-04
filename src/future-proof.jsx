@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Proof = () => {
+
+   
   return (
     <div className="proof-container">
         <div className="top-proof">
