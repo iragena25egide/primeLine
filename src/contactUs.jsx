@@ -63,7 +63,7 @@ const ContactUs = () => {
         </form>
 
         {/* Contact Info Section */}
-        <div className="w-full md:w-1/3 space-y-6">
+        <div className="w-full p-10 md:w-1/3 space-y-6">
           <div>
             <h4 className="text-2xl font-semibold text-black">PrimeLine Communication Inc.</h4>
             <h5 className="text-xl text-gray-700 mt-2">Rwanda Headquarters</h5>

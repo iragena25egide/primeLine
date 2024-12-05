@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 
-// Import your images
+
 import slide1 from '../public/image/ex1.png';
 import slide2 from '../public/image/ex2.jpg';
 import slide3 from '../public/image/ex3.webp';
@@ -21,7 +21,6 @@ const Explore = () => {
 
   return (
     <div className="bg-gray-50 py-8 px-4">
-      {/* Top Section */}
       <div className="flex justify-between items-center px-4 mb-6">
         <div className="w-1/2">
           <h4 className="text-3xl font-medium text-gray-800">Explore More</h4>
@@ -36,7 +35,6 @@ const Explore = () => {
         </div>
       </div>
 
-      {/* Content Section */}
       <div className="flex justify-center">
         <div className="w-full lg:w-3/4 xl:w-2/3">
           <div ref={imageContainerRef} className="flex overflow-x-auto space-x-4 snap-x snap-mandatory scroll-smooth pb-12">

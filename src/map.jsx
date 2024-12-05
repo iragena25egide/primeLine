@@ -3,14 +3,13 @@ import React from 'react';
 const Map = () => {
   return (
     <div className="bg-cover bg-center h-128 py-16" style={{ backgroundImage: "url('public/image/night.png')" }}>
-      {/* Top Section */}
       <div className="text-center px-4">
         <h1 className="text-4xl md:text-5xl font-medium text-white">
           Mobilize Your Call Center <br /> Operations in a Flash
         </h1>
       </div>
 
-      {/* Content Section */}
+
       <div className="mt-8 md:mt-16 px-4 md:w-1/2 mx-auto text-center">
         <h4 className="text-xl md:text-2xl text-white">
           Our cloud-based network lets us CONNECT CALL CENTERS AND AGENTS QUICKLY, without the constraints of hardware and geography.
@@ -20,7 +19,6 @@ const Map = () => {
         </p>
       </div>
 
-      {/* Bottom Section (empty for now) */}
       <div className="mt-16"></div>
     </div>
   );

@@ -72,7 +72,7 @@ const Header = () => {
         </div>
 
         {/* Contact Button */}
-        <div className="hidden md:block">
+        <div className="md:block">
           <Link
             to="/contact-us"
             className="px-4 py-2 border border-gray-400 rounded-full hover:border-black"
